@@ -1,0 +1,262 @@
+DATA INSERTION SCRIPT:
+
+PATIENT DATA INSERTION SCRIPT::
+INSERT INTO "Patient" ("PID", "PhoneNumber", "Address", "Name", "BloodGroup", "Age", "Email")
+VALUES
+(1000, '9898233947', '14, Sarthak Bungalows, New CG Road, Chandkheda, Ahmedabad', 'Rajesh Shah', 'A+', 35, 'rajesh@gmail.com'),
+(1001, '8765432109', '27, Rajvi Park, Bopal Cross Road, Bopal, Ahmedabad', 'Priya Jain', 'B+', 28, 'priya@hotmail.com'),
+(1002, '8562039489', '56, Swagat City, Nikol Road, Nikol, Ahmedabad', 'Rahul Soni', 'O-', 45, 'rahul@yahoo.com'),
+(1003, '6749281093', '78, Radhe Residency, Nava Naroda Road, Nava Naroda, Ahmedabad', 'Anita Mehta', 'AB-', 50, 'anita@gmail.com'),
+(1004, '9698230471', '90, Maruti Enclave, Sarkhej Road, Sarkhej, Ahmedabad', 'Amit Patel', 'B-', 22, 'amit@hotmail.com'),
+(1005, '8321987654', '123, Shree Krishna Avenue, Ambawadi, Ahmedabad', 'Sneha Desai', 'O+', 30, 'sneha@yahoo.com'),
+(1006, '6210876543', '45, Raghukul Towers, Vastrapur, Ahmedabad', 'Neha Sharma', 'A-', 40, 'neha@gmail.com'),
+(1007, '8197358640', '78, Samarth Residency, Naranpura, Ahmedabad', 'Vikram Shah', 'B+', 55, 'vikram@hotmail.com'),
+(1008, '9896543211', '109, Aryan Flats, Vasna Road, Vasna, Ahmedabad', 'Pooja Jain', 'AB+', 27, 'pooja@yahoo.com'),
+(1009, '8765432101', '231, Sarvodaya Residency, Science City Road, Sola, Ahmedabad', 'Kunal Soni', 'O-', 32, 'kunal@gmail.com'),
+(1010, '9654321092', '44, Devkrupa Bungalows, Ranip, Ahmedabad', 'Aarti Patel', 'B-', 48, 'aarti@hotmail.com'),
+(1011, '6543210983', '67, Shakti Residency, Chandlodia Road, Chandlodia, Ahmedabad', 'Deepak Shah', 'A+', 25, 'deepak@yahoo.com'),
+(1012, '9432109874', '80, Gurukul Bungalows, Gurukul, Ahmedabad', 'Swati Jain', 'AB-', 38, 'swati@gmail.com'),
+(1013, '9210987653', '91, Indraprastha Park, Satellite Road, Satellite, Ahmedabad', 'Ramesh Soni', 'O+', 42, 'ramesh@hotmail.com'),
+(1014, '9210987656', '143, Royal Enclave, Narol-Naroda Road, Narol, Ahmedabad', 'Rina Shah', 'A-', 33, 'rina@yahoo.com'),
+(1015, '8809876547', '202, Anmol Residency, Ghatlodia, Ahmedabad', 'Alok Desai', 'B+', 29, 'alok@gmail.com'),
+(1016, '9896543219', '76, Mahavir Flats, Usmanpura, Ahmedabad', 'Mukesh Soni', 'O-', 41, 'mukesh@yahoo.com'),
+(1017, '8765432100', '33, Satyam Bungalows, Thaltej Road, Thaltej, Ahmedabad', 'Hema Shah', 'A+', 31, 'hema@gmail.com'),
+(1018, '6954321091', '89, Shreeji Vihar, Vatva Road, Vatva, Ahmedabad', 'Sanjay Patel', 'B-', 47, 'sanjay@hotmail.com'),
+(1019, '9543210982', '120, Sharnam Residency, Jodhpur Cross Road, Satellite, Ahmedabad', 'Asha Desai', 'AB-', 26, 'asha@yahoo.com'),
+(1020, '8432109873', '180, Aditya Avenue, Naranpura, Ahmedabad', 'Rajiv Jain', 'O+', 36, 'rajiv@gmail.com'),
+(1021, '8321098764', '67, Ratnam Flats, Nehrunagar, Ahmedabad', 'Seema Soni', 'A-', 44, 'seema@hotmail.com'),
+(1022, '9210987655', '98, Shreeji Park, Anandnagar Road, Prahladnagar, Ahmedabad', 'Amar Shah', 'B+', 39, 'amar@yahoo.com'),
+(1023, '6109876546', '209, Shivalik Enclave, S.G. Highway, Bodakdev, Ahmedabad', 'Geeta Jain', 'AB+', 34, 'geeta@gmail.com'),
+(1024, '9898765432', '76, Shivam Society, Maninagar, Ahmedabad', 'Rita Patel', 'O-', 43, 'rita@hotmail.com'),
+(1025, '8123456789', '12, Green Park Society, Satellite Road, Satellite, Ahmedabad', 'Sagar Shah', 'A+', 30, 'sagar@gmail.com'),
+(1026, '7865432108', '33, Sunrise Residency, Gota Road, Gota, Ahmedabad', 'Reema Desai', 'B-', 45, 'reema@hotmail.com'),
+(1027, '7456203894', '24, Shivam Bungalows, Naranpura, Ahmedabad', 'Rajesh Patel', 'O+', 28, 'rajesh@yahoo.com'),
+(1028, '8749201653', '76, Ganesh Society, Memnagar, Ahmedabad', 'Jigna Mehta', 'AB-', 32, 'jigna@gmail.com'),
+(1029, '9856210934', '45, Nirman Flats, Prahladnagar Road, Ahmedabad', 'Rohit Shah', 'A-', 41, 'rohit@hotmail.com'),
+(1030, '9832109476', '90, Shubh Residency, Bodakdev, Ahmedabad', 'Deepika Jain', 'B+', 27, 'deepika@yahoo.com'),
+(1031, '8632049781', '78, Rajendra Park, Vastrapur, Ahmedabad', 'Kishor Soni', 'O-', 36, 'kishor@gmail.com'),
+(1032, '7169083452', '98, Shraddha Enclave, Ashram Road, Ahmedabad', 'Neha Patel', 'AB+', 25, 'neha@hotmail.com'),
+(1033, '9148563207', '56, Neelkanth Residency, Ghatlodia, Ahmedabad', 'Jatin Mehta', 'A+', 34, 'jatin@yahoo.com'),
+(1034, '9476021389', '67, Royal Heights, Science City Road, Sola, Ahmedabad', 'Meera Desai', 'B+', 47, 'meera@gmail.com'),
+(1035, '8357291648', '23, Parul Park, Chandkheda, Ahmedabad', 'Rakesh Shah', 'O+', 39, 'rakesh@hotmail.com'),
+(1036, '9672410853', '45, Shreeji Enclave, Vejalpur, Ahmedabad', 'Poonam Jain', 'A-', 31, 'poonam@yahoo.com'),
+(1037, '8052169473', '76, Laxmi Avenue, Jodhpur Cross Road, Satellite, Ahmedabad', 'Sanjay Desai', 'B+', 42, 'sanjay@gmail.com'),
+(1038, '7823610945', '90, Shanti Niketan, Thaltej Road, Thaltej, Ahmedabad', 'Kavita Shah', 'O-', 29, 'kavita@hotmail.com'),
+(1039, '6174890231', '23, Aarav Apartments, S.G. Highway, Bodakdev, Ahmedabad', 'Rohit Mehta', 'AB+', 38, 'rohit@yahoo.com'),
+(1040, '9728361945', '78, Shilpa Residency, Navrangpura, Ahmedabad', 'Sweta Desai', 'A+', 35, 'sweta@gmail.com'),
+(1041, '9038471625', '45, Rudraksha Avenue, Ambli Road, Ahmedabad', 'Sandeep Jain', 'B-', 44, 'sandeep@hotmail.com'),
+(1042, '8190546237', '32, Rajvi Complex, Chandlodia Road, Ahmedabad', 'Puja Soni', 'O+', 26, 'puja@yahoo.com'),
+(1043, '7018965432', '89, Shubham Society, Naroda Road, Nava Naroda, Ahmedabad', 'Vijay Patel', 'B+', 50, 'vijay@gmail.com'),
+(1044, '9578231064', '47, Rajvi Towers, Maninagar, Ahmedabad', 'Reema Shah', 'A-', 37, 'reema@hotmail.com'),
+(1045, '9784210563', '67, Swagat Residency, Satellite Road, Satellite, Ahmedabad', 'Deepak Soni', 'O-', 41, 'deepak@yahoo.com'),
+(1046, '8459136270', '12, Saraswati Park, Usmanpura, Ahmedabad', 'Sheetal Desai', 'AB-', 30, 'sheetal@gmail.com'),
+(1047, '9274610538', '34, Shreeji Society, Vatva Road, Vatva, Ahmedabad', 'Kunal Patel', 'B-', 45, 'kunal@hotmail.com'),
+(1048, '7831245609', '90, Vishal Residency, Nehrunagar, Ahmedabad', 'Preeti Jain', 'A+', 28, 'preeti@yahoo.com'),
+(1049, '9731604892', '23, Shreya Enclave, Chandlodia Road, Chandlodia, Ahmedabad', 'Amit Shah', 'O+', 42, 'amit@gmail.com').
+
+
+===================================================================================
+
+
+MEDICAL HISTORY INSERTION SCRIPT:
+INSERT INTO "MedicalHistory" ("MedConditions", "Allergies", "PID")
+VALUES
+    ('High cholesterol', 'Dairy, Pollen', 1000),
+    ('Pre-diabetes', 'Seafood, Peanuts', 1001),
+    ('Seasonal allergies', 'Pollen, Dust', 1002),
+    ('Hypertension', 'Shellfish, Wheat', 1003),
+    ('Migraines', 'Eggs, Soy', 1004),
+    ('Mild arthritis', 'Nuts, Dairy', 1005),
+    ('Mild asthma', 'Pollen, Fish', 1006),
+    ('Benign tumor', 'Milk, Corn', 1007),
+    ('Mild depression', 'Wheat, Soy', 1008),
+    ('Generalized anxiety', 'Soy, Dairy', 1009),
+    ('Seasonal allergies', 'Pollen, Dust', 1010),
+    ('Mild asthma', 'Citrus fruits, Dairy', 1011),
+    ('High blood pressure', 'Chocolate, Wheat', 1012),
+    ('Borderline diabetes', 'Gluten, Nuts', 1013),
+    ('Mild heart palpitations', 'Sesame, Shellfish', 1014),
+    ('Occasional headaches', 'Red meat, Dairy', 1015),
+    ('Joint pain', 'Tree nuts, Wheat', 1016),
+    ('Mild skin irritation', 'Tomatoes, Soy', 1017),
+    ('Low mood', 'Oranges, Dairy', 1018),
+    ('Stress-related symptoms', 'Apples, Wheat', 1019),
+    ('High cholesterol, Vitamin D deficiency', 'Pollen, Dairy', 1020),
+    ('Eye strain, Vitamin A deficiency', 'Pollen, Dairy', 1021),
+    ('Vitamin C deficiency', 'Dust, Dairy', 1022),
+    ('Mild blood pressure issues', 'Pollen, Dairy', 1023),
+    ('Mild vitamin B12 deficiency', 'Pollen, Dairy', 1024);
+
+===================================================================================
+
+STAFF TABLE:
+INSERT INTO "Staff" ("StaffID","Name", "Salary", "Address", "Type", "PhoneNumber", "LastPaymentDate") VALUES
+(1,'Harbhajan Thanjrajan', '0.0', '123 Swastik Society, Ahmedabad', 'Clinic Staff', '9876543210', '2024-04-01'), --DOCTOR only gets the profits
+
+(100,'Priya Shah', 12500, '456 Navrangpura, Ahmedabad', 'Pharmacy Staff', '9876543211', '2024-04-01'), --Pharmacy: Morning
+(101,'Ananya Shah', 14000, '654 Vastrapur, Ahmedabad', 'Pharmacy Staff', '9876543214', '2024-04-01'), --Pharmacy Night
+
+(200,'Aarav Joshi', 2300, '789 Gurukul, Ahmedabad', 'Cleaning Staff', '9876543212', '2024-04-01'), --Cleaner 1
+(201,'Sunil Kumar', 2000, '111 Shyamal Cross Road, Ahmedabad', 'Cleaning Staff', '9876543215', '2024-04-01'), --Cleaner 2
+
+(300,'Nisha Desai', 16700, '321 Satellite Road, Ahmedabad', 'Clinic Staff', '9876543213', '2024-04-01'), --Receptionist
+(301,'Kiran Sharma', 25000, '789 Satellite Road, Ahmedabad', 'Clinic Staff', '9876543217', '2024-04-01'); --Nurse
+
+===================================================================================
+
+CLINIC STAFF TABLE:
+INSERT INTO "ClinicStaff" ("StaffID", "Role")
+SELECT "StaffID", 
+    CASE 
+        WHEN "Name" = 'Harbhajan Thanjrajan' THEN 'Doctor'
+        WHEN "Name" = 'Nisha Desai' THEN 'Receptionist'
+        WHEN "Name" = 'Kiran Sharma' THEN 'Nurse'
+        ELSE NULL
+    END
+FROM "Staff"
+WHERE "Type" = 'Clinic Staff';
+
+===================================================================================
+
+PHARMACY STAFF:
+INSERT INTO "PharmacyStaff" ("StaffID", "Shift")
+SELECT "StaffID", 
+    CASE 
+        WHEN "Name" = 'Priya Shah' THEN 'Morning'
+        ELSE 'Evening'
+    END
+FROM "Staff"
+WHERE "Type" = 'Pharmacy Staff';
+
+
+===================================================================================
+
+CLEANING STAFF:
+INSERT INTO "CleaningStaff" ("StaffID")
+SELECT "StaffID"
+FROM "Staff"
+WHERE "Type" = 'Cleaning Staff';
+
+===================================================================================
+
+APPOINTMENT:
+INSERT INTO Appointments (AppointmentTime, AppointmentDate, PatientID, Duration)
+VALUES
+    ('11:00:00', '2024-02-01', 1000, 300),
+    ('11:30:00', '2024-02-01', 1004, 300),
+    ('12:30:00', '2024-02-01', 1005, 300),
+    ('13:00:00', '2024-02-01', 1001, 300),
+    ('16:30:00', '2024-02-01', 1006, 300),
+    ('17:00:00', '2024-02-01', 1002, 300),
+    ('19:00:00', '2024-02-01', 1007, 300),
+    ('20:00:00', '2024-02-01', 1003, 300),
+    ('12:00:00', '2024-02-02', 1008, 300),
+    ('13:00:00', '2024-02-02', 1012, 300),
+    ('13:15:00', '2024-02-02', 1013, 300),
+    ('13:30:00', '2024-02-02', 1009, 300),
+    ('17:00:00', '2024-02-02', 1014, 300),
+    ('17:30:00', '2024-02-02', 1010, 300),
+    ('19:45:00', '2024-02-02', 1015, 300),
+    ('20:00:00', '2024-02-02', 1011, 300),
+    ('11:00:00', '2024-02-03', 1020, 300),
+    ('11:30:00', '2024-02-03', 1016, 300),
+    ('12:30:00', '2024-02-03', 1021, 300),
+    ('16:30:00', '2024-02-03', 1022, 300),
+    ('19:30:00', '2024-02-03', 1019, 300),
+    ('20:00:00', '2024-02-03', 1023, 300),
+    ('11:00:00', '2024-02-04', 1024, 300),
+    ('11:30:00', '2024-02-04', 1028, 300),
+    ('12:30:00', '2024-02-04', 1029, 300),
+    ('13:00:00', '2024-02-04', 1025, 300),
+    ('16:30:00', '2024-02-04', 1030, 300),
+    ('17:00:00', '2024-02-04', 1026, 300),
+    ('19:00:00', '2024-02-04', 1031, 300),
+    ('20:00:00', '2024-02-04', 1027, 300),
+    ('12:00:00', '2024-02-05', 1032, 300),
+    ('13:00:00', '2024-02-05', 1036, 300),
+    ('13:15:00', '2024-02-05', 1037, 300),
+    ('13:30:00', '2024-02-05', 1033, 300),
+    ('13:45:00', '2024-02-05', 1012, 300),
+    ('17:00:00', '2024-02-05', 1038, 300),
+    ('17:30:00', '2024-02-05', 1034, 300),
+    ('19:45:00', '2024-02-05', 1039, 300),
+    ('20:00:00', '2024-02-05', 1035, 300),
+    ('11:00:00', '2024-02-06', 1044, 300),
+    ('11:30:00', '2024-02-06', 1040, 300),
+    ('12:30:00', '2024-02-06', 1045, 300),
+    ('12:30:00', '2024-02-06', 1041, 300),
+    ('13:00:00', '2024-02-06', 1007, 300),
+    ('16:30:00', '2024-02-06', 1046, 300),
+    ('16:30:00', '2024-02-06', 1042, 300),
+    ('19:30:00', '2024-02-06', 1043, 300),
+    ('20:00:00', '2024-02-06', 1047, 300),
+    ('12:30:00', '2024-02-07', 1021, 300),
+    ('16:30:00', '2024-02-07', 1022, 300),
+    ('16:45:00', '2024-02-07', 1006, 300),
+    ('17:00:00', '2024-02-07', 1002, 300),
+    ('17:30:00', '2024-02-07', 1048, 300),
+    ('20:00:00', '2024-02-07', 1049, 300);
+	
+
+===================================================================================
+
+MEDICINE DETAILS:
+INSERT INTO MedicineDetails (MedID,MedName, Rate, StaffID) VALUES
+    (1111,'Atorvastatin', 10.0, 100),
+    (1112, 'Metformin', 8.0, 100),
+    (1113,'Cetirizine', 5.0, 101),
+    (1114,'Fluticasone', 12.0, 101),
+    (1115,'Ibuprofen', 3.0, 100),
+    (1116,'Sumatriptan', 15.0, 100),
+    (1117,'SSRIs', 20.0, 101),
+    (1118, 'Beta-blockers, 8.0, 100),
+    (1119,' Vitamin D supplements, 5.0, 100),
+    (1120,' Vitamin A supplements', 7.0, 100),
+    (1121,' Vitamin B12 supplements', 6.0, 101),
+    (1122, 'Amoxicillin', 7.0, 100),
+    (1123,'Ciprofloxacin', 9.0, 101),
+    (1124,'Azithromycin', 11.0, 100),
+    (1125,'Oseltamivir', 15.0, 101),
+    (1126,'Acetaminophen', 4.0, 100),
+    (1127,'Dextromethorphan', 5.0, 101),
+    (1128,'Guaifenesin', 3.0, 100),
+    (1129,'Pseudoephedrine', 6.0, 101),
+    (1130,'Hydrocortisone', 5.0, 100),
+    (1131,'Clotrimazole', 4.0, 101),
+    (1132,'Terbinafine', 8.0, 100),
+    (1133,'Mupirocin', 9.0, 101);
+
+===================================================================================
+
+INVENTORY:
+-- Inserting data into the Inventory table with unique order dates and randomized batch numbers
+INSERT INTO "Inventory" ("MedID", "BatchNumber", "QtyAvailable", "QtyOrdered", "CostPrice", "MgfDate", "ExpDate", "StaffID")
+VALUES
+    (1111, '01022411', 100, 120, 10.0, '2023-10-15', '2024-10-15', 100),
+    (1112, '02022421', 150, 200, 8.0, '2023-11-10', '2024-11-10', 100),
+    (1113, '03022433', 200, 250, 5.0, '2023-09-30', '2025-09-30', 101),
+    (1114, '04022414', 75, 100, 12.0, '2023-10-22', '2024-10-22', 101),
+    (1115, '05022418', 300, 350, 3.0, '2023-12-05', '2025-12-05', 100),
+    (1116, '06022435', 50, 75, 15.0, '2023-08-25', '2024-08-25', 100),
+    (1117, '07022417', 80, 100, 20.0, '2023-09-15', '2024-09-15', 101),
+    (1118, '08022408', 200, 250, 8.0, '2023-10-05', '2024-10-05', 100),
+    (1119, '09022412', 100, 120, 5.0, '2023-11-20', '2025-11-20', 100),
+    (1120, '10022423', 120, 150, 7.0, '2023-09-05', '2024-09-05', 100),
+    (1121, '11022419', 75, 100, 6.0, '2023-12-12', '2025-12-12', 101),
+    (1122, '12022427', 180, 200, 7.0, '2023-10-01', '2024-10-01', 100),
+    (1123, '13022431', 90, 120, 9.0, '2023-11-05', '2025-11-05', 101),
+    (1124, '14022445', 75, 100, 11.0, '2023-10-10', '2024-10-10', 100),
+    (1125, '15022452', 60, 80, 15.0, '2023-08-20', '2024-08-20', 101),
+    (1126, '16022468', 300, 350, 4.0, '2023-07-25', '2024-07-25', 100),
+    (1127, '17022413', 200, 250, 5.0, '2023-11-15', '2025-11-15', 101),
+    (1128, '18022409', 250, 300, 3.0, '2023-08-10', '2024-08-10', 100),
+    (1129, '19022437', 100, 120, 6.0, '2023-10-18', '2024-10-18', 101),
+    (1130, '20022407', 150, 180, 5.0, '2023-11-25', '2025-11-25', 100),
+    (1131, '21022432', 75, 100, 4.0, '2023-12-05', '2025-12-05', 101),
+    (1132, '22022449', 50, 75, 8.0, '2023-11-10', '2024-11-10', 100),
+    (1133, '23022458', 80, 100, 9.0, '2023-08-15', '2024-08-15', 101);
+
+
+
+
+
